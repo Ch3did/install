@@ -49,7 +49,8 @@ sudo apt-get install python3-pip -y
 sudo apt-get install mysql-server -y
 sudo apt-get install mysql-client 
 sudo apt-get install ubuntu-wallpapers
-sudo apt install gnome-tweaks -y
+sudo apt-get install gnome-tweaks -y
+sudo apt-get install build-essential -y
 
 
 ## Instalando pacotes Snap ##
