@@ -2,7 +2,7 @@
 
 ## Description
 
-Shell scritp to install tools/configurations for new machine's.
+Shell scritp to install tools/configurations for new ubuntu's machine.
 
 ## Usage
 
