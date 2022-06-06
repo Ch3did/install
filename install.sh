@@ -42,6 +42,7 @@ sudo apt install ubuntu-wallpapers -y
 sudo apt install gnome-tweaks -y
 sudo apt install build-essential -y
 sudo apt install guvcview -y
+sudo apt install vim -y
 
 ## Instalando pacotes Snap ##
 sudo snap install spotify
