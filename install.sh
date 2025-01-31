@@ -35,23 +35,17 @@ sudo apt install curl -y
 sudo apt install htop -y
 sudo apt install foremost -y
 sudo apt install git -y
-sudo apt install default-jdk
-sudo apt install golang-go  -y
 sudo apt install python3-pip -y
-sudo apt install ubuntu-wallpapers -y
 sudo apt install gnome-tweaks -y
-sudo apt install build-essential -y
 sudo apt install guvcview -y
 sudo apt install vim -y
 
 ## Instalando pacotes Snap ##
 sudo snap install spotify
+sudo snap install dbeaver-ce
 sudo snap install code --classic
 sudo snap install slack --classic
-sudo snap install skype --classic
-sudo snap install node --classic
 sudo snap install postman --classic
-sudo snap install dbeaver-ce
 sudo snap install discord --classic
 
 
@@ -60,9 +54,6 @@ sudo snap install discord --classic
 sudo apt update
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Poetry
-sudo apt update
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 
 # Docker
 sudo apt update
@@ -74,11 +65,11 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
+
 # Docker-Compose
 sudo apt update
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
-
 
 
 # ---------------------------------------------------------------------- #
